@@ -65,6 +65,8 @@ public class Solution {
         return C;
     }
 }
+```
+
 ### Optimal Approach - Lazy Sum
 
 - Initialize an empty array `C`.
@@ -93,3 +95,4 @@ public class Solution {
         return C;
     }
 }
+```
