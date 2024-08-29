@@ -50,6 +50,7 @@ The subarray \[4, -1, 2, 1\] has the maximum possible sum of 6.
 ### Brute Force
 
 Find the sum of all subarrays and then return the maximum of it.  
+total number of subarrays in a 1D array is `N*(N+1)/2`
 
 ```java
 public class Solution {
