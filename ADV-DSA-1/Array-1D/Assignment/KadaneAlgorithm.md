@@ -104,7 +104,7 @@ public class Solution {
     }
 }
 ```
-** Time complexity - O(N^2) **
+**Time complexity - O(N^2)**
 
 
 # Best Approach - Kadane's Algorithm
@@ -128,4 +128,4 @@ public class Solution {
     }
 }
 ```
-** Time complexity - O(N) **
+**Time complexity - O(N)**
