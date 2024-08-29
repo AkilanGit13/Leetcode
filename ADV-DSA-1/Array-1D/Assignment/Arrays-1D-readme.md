@@ -71,7 +71,8 @@ public class Solution {
 
 - Initialize an empty array `C`.
 - For every devotee, add the amount only in `C[L-1]` and subtract the same amount in `C[R]`.
-
+- Finally prefix sum the array C.
+  
 **Time Complexity**  
 O(B.length + A)
 
