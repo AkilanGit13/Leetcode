@@ -1,4 +1,4 @@
-#Problem 1 - Maximum sum contiguous subarray
+# Problem 1 - Maximum sum contiguous subarray
 
 ## Problem Description
 
@@ -50,7 +50,6 @@ The subarray \[4, -1, 2, 1\] has the maximum possible sum of 6.
 ### Brute Force
 
 Find the sum of all subarrays and then return the maximum of it.  
-Time complexity is O(N^3).
 
 ```java
 public class Solution {
@@ -72,6 +71,9 @@ public class Solution {
     }
 }
 ```
+**Time complexity is O(N^3)**
+
+
 # Optimal Approach
 
 Store the prefix sum array so that you can find the sum of a range `i to j` using `ps[j] - ps[i-1]` for `i > 0`. Return the maximum sum of it.
@@ -102,6 +104,8 @@ public class Solution {
     }
 }
 ```
+** Time complexity - O(N^2) **
+
 
 # Best Approach - Kadane's Algorithm
 
@@ -124,4 +128,4 @@ public class Solution {
     }
 }
 ```
-
+** Time complexity - O(N) **
