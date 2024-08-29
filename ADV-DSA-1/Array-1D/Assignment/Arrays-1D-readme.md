@@ -72,7 +72,7 @@ public class Solution {
 - Initialize an empty array `C`.
 - For every devotee, add the amount only in `C[L-1]` and subtract the same amount in `C[R]`.
 - Finally prefix sum the array C.
-  
+  ![continuous sum query](https://github.com/user-attachments/assets/b9c01bf8-b6ed-4003-ac90-70c9450e897d)
 **Time Complexity**  
 O(B.length + A)
 
