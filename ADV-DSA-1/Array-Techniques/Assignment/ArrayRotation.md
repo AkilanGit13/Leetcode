@@ -7,9 +7,9 @@ Given an integer array `A` of size `N` and an integer `B`, return the same array
 
 ### Problem Constraints
 
-- \( 1 \leq N \leq 10^5 \)
-- \( 1 \leq A[i] \leq 10^9 \)
-- \( 1 \leq B \leq 10^9 \)
+- 1 <= N <= 10^5
+- 1 <= A[i] <=10^9
+- 1 <= B <= 10^9
 
 ## Solution
 
@@ -77,9 +77,9 @@ Given an integer array `A` of size `N` and an integer `rightRotation`, rotate th
 
 ### Problem Constraints
 
-- \( 1 \leq N \leq 10^5 \)
-- \( 1 \leq A[i] \leq 10^9 \)
-- \( 1 \leq rightRotation \leq 10^9 \)
+- 1 <= N <= 10^5
+- 1 <= A[i] <=10^9
+- 1 <= B <= 10^9
 
 ## Optimized Solution
 
